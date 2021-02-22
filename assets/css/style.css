@@ -1,0 +1,30 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+.titulo{
+    font-size: 2.5rem;
+    color: white;
+}
+
+.texto{
+    font-size: 1.5rem;
+    color: white;
+}
+
+#quemsomos{
+    background-color:#a5afaa;
+}
+
+.gradient-cinza{
+    background: linear-gradient(#a5afaa, #5d6664);
+}
+
+.bg-cinza{
+    background:  #5d6664;
+}
+
+.img-circular{
+    border-radius: 5%;
+}
+

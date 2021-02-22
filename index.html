@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link  href="bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css" rel="stylesheet">
+        <link  href="assets/css/style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+        <title>Projeto Bootstrap</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="assets/img/dio-logo.png" alt="">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-cabecalho" aria-controls="menu-cabecalho" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                        <div id="menu-cabecalho" class="collapse navbar-collapse">
+                            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                                <li class="nav-item text-white">
+                                    <a href="#quemsomos" class="nav-link texto">Quem somos</a>
+                                </li>
+                                <li class="nav-item text-white">
+                                    <a href="#" class="nav-link texto">Orçamentos</a>
+                                </li>
+                                <li class="nav-item text-white">
+                                    <a href="#servicos" class="nav-link texto">Serviços</a>
+                                </li>
+                                <li class="nav-item text-white">
+                                    <a href="#parceiros" class="nav-link texto">Parceiros</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+              
+        
+        
+        <main>
+            <section id="quemsomos">
+                <div class="container-fluid text-center p-4">
+                    <h3 class="display-5 titulo mb-4">Quem somos</h3>
+                    <img src="assets/img/pexels-fauxels-3184418.jpg" class="rounded-circle mb-4" alt="" width="300" height="300">
+                    <p class="h4 texto">Somos um time altamente comprometido com as expectativas de nossos clientes. Contamos com excelentes profissionais para transformar suas ideias em realidade.</p>
+                </div>
+            </section>
+
+            <section id="parceiros" class="gradient-cinza">
+                <div class="container-fluid text-center p-4">
+                    <h3 class="display-5 titulo mb-4">Parceiros</h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <img class="rounded-circle mb-2" src="assets/img/evernote.png" alt="" width="200" height="200">
+                                <p class="h4 texto">Evernote</p>
+                            </div>
+                            <div class="col-lg-4">
+                                <img class="rounded-circle mb-2" src="assets/img/banco-inter.png" alt="" width="200" height="200">
+                                <p class="h4 texto">Banco Inter</p>
+                            </div>
+                            <div class="col-lg-4">
+                                <img class="rounded-circle mb-2" src="assets/img/github.png" alt="" width="200" height="200">
+                                <p class="h4 texto">GitHub</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="servicos" class="bg-cinza pb-4">
+                <div class="container-fluid text-center p-4">
+                    <h3 class="display-5 titulo mb-4">Serviços</h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p class="texto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+                                     since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <img class="img-responsive img-circular" src="assets/img/prog.jpg" alt="" width="100%" height="500">
+                            </div>
+                            <div class="col-lg-6">
+                                <p class="texto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+                                    since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <img class="img-responsive img-circular" src="assets/img/prog.jpg" alt="" width="100%" height="500">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+        <footer class="text-center">
+            <div class="container-fluid bg-dark p-3  text-white">
+                <p>Desenvolvido por Bruno Mann Ramos - Aula de Bootstrap Digital Innovation One</p>
+            </div>
+        </footer>
+    </body>
+</html>
+
+
+<script src="bootstrap-5.0.0-beta2-dist/js/bootstrap.bundle.min.js"></script>
